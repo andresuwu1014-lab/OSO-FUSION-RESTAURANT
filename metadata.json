@@ -1,0 +1,6 @@
+{
+  "name": "Oso Fusion | Flavors of Asia & Colombia",
+  "description": "Asian and Colombian fusion restaurant in Ibagué, Tolima. Interactive menu, ordering for dine-in, takeaway, and delivery, promotions, and Oso Assistant with direct WhatsApp ordering.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

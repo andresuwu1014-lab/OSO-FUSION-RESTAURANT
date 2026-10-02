@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+  h1, h2, h3, .font-display {
+    font-family: 'Cinzel', serif;
+  }
+}
+
+.gold-border {
+  border: 1px solid rgba(229, 184, 105, 0.28);
+}
+
+.gold-border-glow {
+  border: 1px solid rgba(229, 184, 105, 0.45);
+  box-shadow: 0 0 25px rgba(229, 184, 105, 0.15);
+}
+
+.gold-text-gradient {
+  background: linear-gradient(135deg, #F5DCA3 0%, #E5B869 50%, #C49847 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.ocobo-badge {
+  color: #F4C4CC;
+  background-color: rgba(232, 157, 168, 0.12);
+  border: 1px solid rgba(232, 157, 168, 0.35);
+}
+
+.bamboo-badge {
+  color: #8ED09E;
+  background-color: rgba(63, 122, 77, 0.16);
+  border: 1px solid rgba(63, 122, 77, 0.4);
+}
+
+.bg-andean-pattern {
+  background-image: 
+    radial-gradient(circle at 10% 20%, rgba(63, 122, 77, 0.08) 0%, transparent 40%),
+    radial-gradient(circle at 90% 80%, rgba(232, 157, 168, 0.06) 0%, transparent 40%),
+    radial-gradient(circle at 50% 50%, rgba(229, 184, 105, 0.05) 0%, transparent 60%);
+}
+
+/* Custom polished scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #111412;
+}
+::-webkit-scrollbar-thumb {
+  background: #252F28;
+  border: 1px solid rgba(229, 184, 105, 0.2);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #36443B;
+}
